@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wanshu Jiang - Chatbot</title>
+    <link rel="icon" href="https://picsum.photos/seed/favicon/32/32" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script>
@@ -51,18 +52,15 @@
 </head>
 <body class="bg-gray-50 font-sans text-gray-800">
     <div class="min-h-screen flex flex-col">
-        <!-- Header -->
         <header class="bg-gradient-to-r from-primary to-secondary text-white shadow-lg">
             <div class="container mx-auto px-4 py-6">
                 <h1 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-shadow">Wanshu Jiang</h1>
-                <p class="text-blue-100 mt-1 text-[clamp(1rem,2vw,1.2rem)]">Cognitive Systems | Biomedical Engineering</p>
+                <p class="text-blue-100 mt-1 text-[clamp(1rem,2vw,1.2rem)]">Cognitive Systems</p>
             </div>
         </header>
 
-        <!-- Main Content -->
         <main class="flex-grow container mx-auto px-4 py-8">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                <!-- Profile Section -->
                 <div class="lg:col-span-1">
                     <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
                         <div class="relative">
@@ -74,7 +72,6 @@
                         <div class="pt-20 pb-6 px-6">
                             <h2 class="text-2xl font-bold text-center mb-1">Wanshu Jiang</h2>
                             <p class="text-gray-600 text-center mb-4">Master Student in Cognitive Systems</p>
-                            
                             <div class="space-y-3 mt-6">
                                 <div class="flex items-center">
                                     <i class="fa fa-map-marker text-primary w-5"></i>
@@ -92,7 +89,6 @@
                         </div>
                     </div>
 
-                    <!-- Tabs Section -->
                     <div class="bg-white rounded-xl shadow-md mt-6 overflow-hidden">
                         <div class="border-b">
                             <button id="tab-resume" class="tab-button active py-4 px-6 inline-block font-medium text-primary border-b-2 border-primary">
@@ -102,9 +98,8 @@
                                 <i class="fa fa-cogs mr-2"></i>Skills
                             </button>
                         </div>
-                        
                         <div id="content-resume" class="tab-content p-6">
-                            <h3 class="text-xl font-bold mb-4 text-gray-800 border-b pb-2">Ausbildung</h3>
+                            <h3 class="text-xl font-bold mb-4 text-gray-800 border-b pb-2">Education</h3>
                             <div class="space-y-4">
                                 <div>
                                     <div class="flex justify-between">
@@ -119,57 +114,56 @@
                                         <span class="text-sm text-gray-500">08/2019–07/2023</span>
                                     </div>
                                     <p class="text-gray-600">Southeast University, Nanjing, VR China</p>
-                                    <p class="text-sm text-gray-500">Fokus: Bioinformatik</p>
+                                    <p class="text-sm text-gray-500">Focus: Bioinformatics</p>
                                 </div>
                             </div>
 
-                            <h3 class="text-xl font-bold mt-6 mb-4 text-gray-800 border-b pb-2">Praktikumserfahrung</h3>
+                            <h3 class="text-xl font-bold mt-6 mb-4 text-gray-800 border-b pb-2">Internship Experience</h3>
                             <div class="space-y-4">
                                 <div>
                                     <div class="flex justify-between">
-                                        <h4 class="font-semibold">HiWi für Analyse von Atomabsorptionssignaldaten</h4>
+                                        <h4 class="font-semibold">Student Assistant for Analysis of Atomic Absorption Signal Data</h4>
                                         <span class="text-sm text-gray-500">05/2025–07/2025</span>
                                     </div>
                                     <p class="text-gray-600">Universität Ulm, Ulm, Deutschland</p>
                                     <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
-                                        <li>Entwickelte automatisierte Toolchains in Python zur Analyse von AAS-Signalen</li>
-                                        <li>Nutzung von Parallelisierung & Batch-Prozessen zur Effizienzsteigerung</li>
-                                        <li>Dokumentation der Abläufe und Übergabe als CI-fähige Skripte</li>
+                                        <li>Developed automated Python toolchains for AAS signal analysis</li>
+                                        <li>Used parallelization & batch processes to increase efficiency</li>
+                                        <li>Documented processes and handover as CI-capable scripts</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <div class="flex justify-between">
-                                        <h4 class="font-semibold">Belt and Road Informationsanalyse- und Monitoringsystem</h4>
+                                        <h4 class="font-semibold">Belt and Road Information Analysis and Monitoring System</h4>
                                         <span class="text-sm text-gray-500">07/2024–09/2024</span>
                                     </div>
                                     <p class="text-gray-600">Southeast University, Nanjing, VR China</p>
                                     <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
-                                        <li>Internationales Monitoringsystem auf Dify-Basis entwickelt</li>
-                                        <li>Module für Multi-Source-Datenerfassung und Textverarbeitung umgesetzt</li>
-                                        <li>LLM-basierte Pipeline zur automatischen Klassifikation implementiert</li>
+                                        <li>Developed international monitoring system based on Dify</li>
+                                        <li>Implemented modules for multi-source data collection and text processing</li>
+                                        <li>Implemented LLM-based pipeline for automatic classification</li>
                                     </ul>
                                 </div>
                             </div>
 
-                            <h3 class="text-xl font-bold mt-6 mb-4 text-gray-800 border-b pb-2">Projekterfahrung</h3>
+                            <h3 class="text-xl font-bold mt-6 mb-4 text-gray-800 border-b pb-2">Project Experience</h3>
                             <div class="space-y-4">
                                 <div>
                                     <div class="flex justify-between">
-                                        <h4 class="font-semibold">Automatisierte Rechnungsverarbeitung mit n8n & LLM</h4>
+                                        <h4 class="font-semibold">Automated Invoice Processing with n8n & LLM</h4>
                                         <span class="text-sm text-gray-500">04/2024–06/2024</span>
                                     </div>
                                     <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
-                                        <li>Automatischer n8n-Workflow zur Überwachung von Rechnungs-E-Mails</li>
-                                        <li>Implementierung einer KI-basierten Pipeline mit Google Gemini</li>
-                                        <li>Aufbau eines End-to-End-Prozesses von E-Mail-Filterung bis Excel-Export</li>
+                                        <li>Automatic n8n workflow for monitoring invoice emails</li>
+                                        <li>Implementation of an AI-based pipeline with Google Gemini</li>
+                                        <li>Built an end-to-end process from email filtering to Excel export</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div id="content-skills" class="tab-content p-6 hidden">
-                            <h3 class="text-xl font-bold mb-4 text-gray-800 border-b pb-2">Technische Fähigkeiten</h3>
-                            
+                            <h3 class="text-xl font-bold mb-4 text-gray-800 border-b pb-2">Technical Skills</h3>
                             <div class="space-y-6">
                                 <div>
                                     <h4 class="font-semibold text-lg mb-3 flex items-center">
@@ -184,7 +178,6 @@
                                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">PHP</span>
                                     </div>
                                 </div>
-                                
                                 <div>
                                     <h4 class="font-semibold text-lg mb-3 flex items-center">
                                         <i class="fa fa-wrench text-primary mr-2"></i>Frameworks & Tools
@@ -197,7 +190,6 @@
                                         <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Dify</span>
                                     </div>
                                 </div>
-                                
                                 <div>
                                     <h4 class="font-semibold text-lg mb-3 flex items-center">
                                         <i class="fa fa-bar-chart text-primary mr-2"></i>Data Analysis & Machine Learning
@@ -209,15 +201,14 @@
                                         <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Power BI</span>
                                     </div>
                                 </div>
-                                
                                 <div>
                                     <h4 class="font-semibold text-lg mb-3 flex items-center">
-                                        <i class="fa fa-comments text-primary mr-2"></i>Sprachen
+                                        <i class="fa fa-comments text-primary mr-2"></i>Languages
                                     </h4>
                                     <div class="flex flex-wrap gap-2">
-                                        <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Deutsch (fließend)</span>
-                                        <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Englisch (fließend)</span>
-                                        <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Chinesisch (Muttersprache)</span>
+                                        <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">German (fluent)</span>
+                                        <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">English (fluent)</span>
+                                        <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Chinese (native)</span>
                                     </div>
                                 </div>
                             </div>
@@ -225,38 +216,30 @@
                     </div>
                 </div>
 
-                <!-- Chatbot Section -->
                 <div class="lg:col-span-2">
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden h-full flex flex-col">
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden h-[700px] flex flex-col">
                         <div class="bg-primary text-white p-4">
                             <h2 class="text-xl font-bold flex items-center">
                                 <i class="fa fa-comments-o mr-2"></i>Career Chatbot
                             </h2>
                             <p class="text-blue-100 text-sm mt-1">Ask me anything about Wanshu's career</p>
                         </div>
-                        
                         <div id="chat-messages" class="flex-grow p-4 overflow-y-auto scrollbar-hide space-y-4">
-                            <!-- Bot greeting -->
                             <div class="flex items-start">
-                                <div class="bg-primary rounded-full p-2 text-white mr-3">
-                                    <i class="fa fa-robot"></i>
-                                </div>
                                 <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-3 max-w-[80%]">
                                     <p>Hello! I'm here to answer questions about Wanshu Jiang's education, work experience, and skills. Feel free to ask me anything related to her career.</p>
                                 </div>
                             </div>
                         </div>
-                        
                         <div class="border-t p-4">
                             <div class="mb-4">
-                                <p class="text-sm text-gray-500 mb-2">Example questions:</p>
+                                <p class="text-sm text-gray-500 mb-2">Ask me anything, like:</p>
                                 <div class="flex flex-wrap gap-2">
                                     <button class="example-question px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm hover:bg-blue-100 transition-colors">What is Wanshu studying?</button>
-                                    <button class="example-question px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm hover:bg-blue-100 transition-colors">What programming languages does she know?</button>
+                                    <button class="example-question px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm hover:bg-blue-100 transition-colors">What languages does she know?</button>
                                     <button class="example-question px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm hover:bg-blue-100 transition-colors">Where did she work?</button>
                                 </div>
                             </div>
-                            
                             <div class="flex gap-2">
                                 <input type="text" id="user-input" placeholder="Type your question here..." class="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                                 <button id="send-button" class="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-lg transition-colors">
@@ -269,7 +252,6 @@
             </div>
         </main>
 
-        <!-- Footer -->
         <footer class="bg-dark text-white py-6">
             <div class="container mx-auto px-4 text-center">
                 <p>&copy; 2023 Wanshu Jiang. All rights reserved.</p>
@@ -278,7 +260,6 @@
     </div>
 
     <script>
-        // Tab functionality
         document.getElementById('tab-resume').addEventListener('click', function() {
             document.getElementById('content-resume').classList.remove('hidden');
             document.getElementById('content-skills').classList.add('hidden');
@@ -286,7 +267,6 @@
             document.getElementById('tab-skills').classList.remove('active', 'text-primary', 'border-primary', 'border-b-2');
             document.getElementById('tab-skills').classList.add('text-gray-500');
         });
-
         document.getElementById('tab-skills').addEventListener('click', function() {
             document.getElementById('content-skills').classList.remove('hidden');
             document.getElementById('content-resume').classList.add('hidden');
@@ -295,13 +275,11 @@
             document.getElementById('tab-resume').classList.add('text-gray-500');
         });
 
-        // Chat functionality
         const chatMessages = document.getElementById('chat-messages');
         const userInput = document.getElementById('user-input');
         const sendButton = document.getElementById('send-button');
         const exampleQuestions = document.querySelectorAll('.example-question');
 
-        // Add example question functionality
         exampleQuestions.forEach(button => {
             button.addEventListener('click', () => {
                 userInput.value = button.textContent;
@@ -309,10 +287,7 @@
             });
         });
 
-        // Send message when button is clicked
         sendButton.addEventListener('click', sendMessage);
-
-        // Send message when Enter key is pressed
         userInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') {
                 sendMessage();
@@ -322,17 +297,9 @@
         function sendMessage() {
             const message = userInput.value.trim();
             if (!message) return;
-
-            // Add user message to chat
             addMessageToChat(message, 'user');
-            
-            // Clear input
             userInput.value = '';
-            
-            // Show typing indicator
             const typingIndicator = addTypingIndicator();
-            
-            // Send request to Cloudflare Worker
             fetch('https://wanshu-chatbot-worker.creaaa304.workers.dev', {
                 method: 'POST',
                 headers: {
@@ -342,17 +309,11 @@
             })
             .then(response => response.json())
             .then(data => {
-                // Remove typing indicator
                 typingIndicator.remove();
-                
-                // Add bot response to chat
                 addMessageToChat(data.response, 'bot');
             })
             .catch(error => {
-                // Remove typing indicator
                 typingIndicator.remove();
-                
-                // Add error message
                 addMessageToChat('Sorry, there was an error processing your request. Please try again later.', 'bot');
                 console.error('Error:', error);
             });
@@ -361,27 +322,15 @@
         function addMessageToChat(message, sender) {
             const messageDiv = document.createElement('div');
             messageDiv.className = `flex items-start ${sender === 'user' ? 'justify-end' : ''}`;
-            
             if (sender === 'user') {
-                messageDiv.innerHTML = `
-                    <div class="bg-primary text-white rounded-lg rounded-tr-none px-4 py-3 max-w-[80%]">
-                        <p>${message}</p>
-                    </div>
-                    <div class="bg-gray-200 rounded-full p-2 text-gray-700 ml-3">
-                        <i class="fa fa-user"></i>
-                    </div>
-                `;
+                messageDiv.innerHTML = `<div class="bg-primary text-white rounded-lg rounded-tr-none px-4 py-3 max-w-[80%]">
+                    <p>${message}</p>
+                </div>`;
             } else {
-                messageDiv.innerHTML = `
-                    <div class="bg-primary rounded-full p-2 text-white mr-3">
-                        <i class="fa fa-robot"></i>
-                    </div>
-                    <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-3 max-w-[80%]">
-                        <p>${message}</p>
-                    </div>
-                `;
+                messageDiv.innerHTML = `<div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-3 max-w-[80%]">
+                    <p>${message}</p>
+                </div>`;
             }
-            
             chatMessages.appendChild(messageDiv);
             chatMessages.scrollTop = chatMessages.scrollHeight;
         }
@@ -389,22 +338,15 @@
         function addTypingIndicator() {
             const indicatorDiv = document.createElement('div');
             indicatorDiv.className = 'flex items-start';
-            indicatorDiv.innerHTML = `
-                <div class="bg-primary rounded-full p-2 text-white mr-3">
-                    <i class="fa fa-robot"></i>
+            indicatorDiv.innerHTML = `<div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-3 max-w-[80%]">
+                <div class="flex space-x-1">
+                    <div class="w-2 h-2 bg-gray-500 rounded-full animate-bounce"></div>
+                    <div class="w-2 h-2 bg-gray-500 rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
+                    <div class="w-2 h-2 bg-gray-500 rounded-full animate-bounce" style="animation-delay: 0.4s"></div>
                 </div>
-                <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-3 max-w-[80%]">
-                    <div class="flex space-x-1">
-                        <div class="w-2 h-2 bg-gray-500 rounded-full animate-bounce"></div>
-                        <div class="w-2 h-2 bg-gray-500 rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
-                        <div class="w-2 h-2 bg-gray-500 rounded-full animate-bounce" style="animation-delay: 0.4s"></div>
-                    </div>
-                </div>
-            `;
-            
+            </div>`;
             chatMessages.appendChild(indicatorDiv);
             chatMessages.scrollTop = chatMessages.scrollHeight;
-            
             return indicatorDiv;
         }
     </script>
